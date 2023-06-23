@@ -19,5 +19,9 @@
     "noFallthroughCasesInSwitch": false,
     "jsx": "react",  
     "lib": ["ESNext","DOM"]
-  }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": [
+    "node_modules"
+  ]
 }
